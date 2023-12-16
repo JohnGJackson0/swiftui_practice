@@ -14,11 +14,8 @@ class ExpenseCategoryViewModel: ObservableObject {
     }
 
     func formattedCurrencyString() -> String {
-        let formatter = NumberFormatter()
-        formatter.numberStyle = .currency
-        formatter.locale = Locale(identifier: "en_US")
-        formatter.currencySymbol = "$"
+        let formattedAmount = CurrencyFormatter.formatToUSCurrency(for: expense)
         let prefix = expense > 0 ? "+" : ""
-        return prefix + (formatter.string(from: NSNumber(value: expense)) ?? "")
+        return prefix + formattedAmount
     }
 }
