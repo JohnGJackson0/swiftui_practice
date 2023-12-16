@@ -14,6 +14,7 @@
 		F55F32E62B2A3A140069C985 /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55F32E52B2A3A140069C985 /* testTests.swift */; };
 		F55F32F02B2A3A140069C985 /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55F32EF2B2A3A140069C985 /* testUITests.swift */; };
 		F55F32F22B2A3A140069C985 /* testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55F32F12B2A3A140069C985 /* testUITestsLaunchTests.swift */; };
+		F55F33052B2BAC8D0069C985 /* ExpenseCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55F33042B2BAC8D0069C985 /* ExpenseCategoryDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F55F32EB2B2A3A140069C985 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55F32EF2B2A3A140069C985 /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
 		F55F32F12B2A3A140069C985 /* testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F55F33042B2BAC8D0069C985 /* ExpenseCategoryDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCategoryDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				F55F32D62B2A3A020069C985 /* ContentView.swift */,
 				F55F32D82B2A3A130069C985 /* Assets.xcassets */,
 				F55F32DA2B2A3A130069C985 /* Preview Content */,
+				F55F33042B2BAC8D0069C985 /* ExpenseCategoryDetails.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				F55F32D72B2A3A020069C985 /* ContentView.swift in Sources */,
 				F55F32D52B2A3A020069C985 /* testApp.swift in Sources */,
+				F55F33052B2BAC8D0069C985 /* ExpenseCategoryDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
