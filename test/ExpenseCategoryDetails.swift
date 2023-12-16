@@ -4,7 +4,16 @@ struct ExpenseCategoryDetails: View {
     var link: String;
     var title: String;
     var date: String;
-    var expense: String;
+    var expense: Double;
+    
+    private func formattedCurrencyString(for amount: Double) -> String {
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .currency
+        formatter.locale = Locale(identifier: "en_US")
+        formatter.currencySymbol = "$"
+        let prefix = amount > 0 ? "+" : ""
+        return prefix + (formatter.string(from: NSNumber(value: amount)) ?? "")
+    }
     
     var body: some View {
         HStack {
@@ -25,8 +34,8 @@ struct ExpenseCategoryDetails: View {
                     .foregroundColor(Color.gray)
             }
             Spacer()
-            Text(expense)
-                .foregroundColor(Color.red)
+            Text(formattedCurrencyString(for: expense))
+                        .foregroundColor(expense > 0 ? .green : .red)
         }
         .padding()
     }
