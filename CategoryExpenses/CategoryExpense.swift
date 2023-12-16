@@ -7,7 +7,7 @@
 import AVKit
 import SwiftUI
 
-struct ContentView: View {
+struct CategoryExpense: View {
     var body: some View {
         VStack {
             ExpenseCategoryDetails(
@@ -24,11 +24,5 @@ struct ContentView: View {
             )
         }
 
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }
