@@ -14,6 +14,10 @@
 		F55F32F02B2A3A140069C985 /* ExpenseTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55F32EF2B2A3A140069C985 /* ExpenseTrackerUITests.swift */; };
 		F55F32F22B2A3A140069C985 /* ExpenseTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55F32F12B2A3A140069C985 /* ExpenseTrackerUITestsLaunchTests.swift */; };
 		F55F33052B2BAC8D0069C985 /* ExpenseCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55F33042B2BAC8D0069C985 /* ExpenseCategoryDetails.swift */; };
+		F55F33082B2E00770069C985 /* CategoryExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55F33072B2E00770069C985 /* CategoryExpense.swift */; };
+		F55F330A2B2E051F0069C985 /* ExpenseCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55F33092B2E051F0069C985 /* ExpenseCategoryViewModel.swift */; };
+		F5CFC4F02B2E08A300E9D625 /* ExpenseCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55F33092B2E051F0069C985 /* ExpenseCategoryViewModel.swift */; };
+		F5CFC4F12B2E08A400E9D625 /* ExpenseCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55F33092B2E051F0069C985 /* ExpenseCategoryViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,8 @@
 		F55F32EF2B2A3A140069C985 /* ExpenseTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITests.swift; sourceTree = "<group>"; };
 		F55F32F12B2A3A140069C985 /* ExpenseTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F55F33042B2BAC8D0069C985 /* ExpenseCategoryDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCategoryDetails.swift; sourceTree = "<group>"; };
+		F55F33072B2E00770069C985 /* CategoryExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryExpense.swift; sourceTree = "<group>"; };
+		F55F33092B2E051F0069C985 /* ExpenseCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCategoryViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,7 @@
 			children = (
 				F55F32D62B2A3A020069C985 /* CategoryExpense.swift */,
 				F55F33042B2BAC8D0069C985 /* ExpenseCategoryDetails.swift */,
+				F55F33092B2E051F0069C985 /* ExpenseCategoryViewModel.swift */,
 			);
 			path = CategoryExpenses;
 			sourceTree = "<group>";
@@ -113,10 +120,19 @@
 		F55F32EE2B2A3A140069C985 /* ExpenseTrackerUITests */ = {
 			isa = PBXGroup;
 			children = (
+				F55F33062B2E004F0069C985 /* CategoryExpense */,
 				F55F32EF2B2A3A140069C985 /* ExpenseTrackerUITests.swift */,
 				F55F32F12B2A3A140069C985 /* ExpenseTrackerUITestsLaunchTests.swift */,
 			);
 			path = ExpenseTrackerUITests;
+			sourceTree = "<group>";
+		};
+		F55F33062B2E004F0069C985 /* CategoryExpense */ = {
+			isa = PBXGroup;
+			children = (
+				F55F33072B2E00770069C985 /* CategoryExpense.swift */,
+			);
+			path = CategoryExpense;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +267,7 @@
 				F55F32D72B2A3A020069C985 /* CategoryExpense.swift in Sources */,
 				F55F32D52B2A3A020069C985 /* ExpenseTrackerApp.swift in Sources */,
 				F55F33052B2BAC8D0069C985 /* ExpenseCategoryDetails.swift in Sources */,
+				F5CFC4F02B2E08A300E9D625 /* ExpenseCategoryViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F55F32E62B2A3A140069C985 /* ExpenseTrackerTests.swift in Sources */,
+				F5CFC4F12B2E08A400E9D625 /* ExpenseCategoryViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F55F33082B2E00770069C985 /* CategoryExpense.swift in Sources */,
 				F55F32F22B2A3A140069C985 /* ExpenseTrackerUITestsLaunchTests.swift in Sources */,
+				F55F330A2B2E051F0069C985 /* ExpenseCategoryViewModel.swift in Sources */,
 				F55F32F02B2A3A140069C985 /* ExpenseTrackerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
