@@ -21,6 +21,7 @@
 		F5CFC4F42B2E0BBF00E9D625 /* CurrencyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CFC4F32B2E0BBF00E9D625 /* CurrencyUtils.swift */; };
 		F5CFC4F52B2E0D1A00E9D625 /* CurrencyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CFC4F32B2E0BBF00E9D625 /* CurrencyUtils.swift */; };
 		F5CFC4F62B2E0D1B00E9D625 /* CurrencyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CFC4F32B2E0BBF00E9D625 /* CurrencyUtils.swift */; };
+		F5CFC4FB2B2E0F1200E9D625 /* CurrencyUtilsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CFC4F92B2E0F1200E9D625 /* CurrencyUtilsTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		F55F33072B2E00770069C985 /* CategoryExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryExpense.swift; sourceTree = "<group>"; };
 		F55F33092B2E051F0069C985 /* ExpenseCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCategoryViewModel.swift; sourceTree = "<group>"; };
 		F5CFC4F32B2E0BBF00E9D625 /* CurrencyUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyUtils.swift; sourceTree = "<group>"; };
+		F5CFC4F92B2E0F1200E9D625 /* CurrencyUtilsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyUtilsTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		F55F32E42B2A3A140069C985 /* ExpenseTrackerTests */ = {
 			isa = PBXGroup;
 			children = (
+				F5CFC4F72B2E0EC800E9D625 /* shared */,
 				F55F32E52B2A3A140069C985 /* ExpenseTrackerTests.swift */,
 			);
 			path = ExpenseTrackerTests;
@@ -144,6 +147,14 @@
 			isa = PBXGroup;
 			children = (
 				F5CFC4F32B2E0BBF00E9D625 /* CurrencyUtils.swift */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		F5CFC4F72B2E0EC800E9D625 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				F5CFC4F92B2E0F1200E9D625 /* CurrencyUtilsTest.swift */,
 			);
 			path = shared;
 			sourceTree = "<group>";
@@ -291,6 +302,7 @@
 			files = (
 				F55F32E62B2A3A140069C985 /* ExpenseTrackerTests.swift in Sources */,
 				F5CFC4F52B2E0D1A00E9D625 /* CurrencyUtils.swift in Sources */,
+				F5CFC4FB2B2E0F1200E9D625 /* CurrencyUtilsTest.swift in Sources */,
 				F5CFC4F12B2E08A400E9D625 /* ExpenseCategoryViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
